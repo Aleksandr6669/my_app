@@ -23,4 +23,4 @@ def main(page: ft.Page):
     )
 
 
-ft.app(main)
+ft.app(target=main, port=9002, view=ft.AppView.WEB_BROWSER)
