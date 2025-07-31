@@ -8,7 +8,8 @@ authors = [
     { name = "Flet developer", email = "you@example.com" }
 ]
 dependencies = [
-  "flet==0.27.4"
+  "flet==0.27.4",
+  "google-generativeai"
 ]
 
 [tool.flet]
